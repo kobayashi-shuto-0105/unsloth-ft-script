@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Large local artifacts
+outputs/
+models/
+datasets/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+
+# Logs
+*.log
+wandb/
+runs/
